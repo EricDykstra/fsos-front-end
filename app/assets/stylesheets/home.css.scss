@@ -1,0 +1,18 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background:#fefdfa;
+  background: url(image_path('bkgstripe.png'));
+  background-repeat: repeat;
+  height:100%;
+}
+
+.rum {
+  margin: 3px auto;
+  width: 760px;
+  border-radius:10px;
+  border: 2px solid black;
+  background:rgba(255,200,200,.5);
+}

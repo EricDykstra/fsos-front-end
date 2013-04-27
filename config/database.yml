@@ -1,19 +1,19 @@
 development:
   adapter: postgresql
-  database: stackoverflow_development
+  database: fantasy_sos_development
   host: localhost
   encoding: UTF8
   min_messages: WARNING
 
 test: &test
   adapter: postgresql
-  database: stackoverflow_test
+  database: fantasy_sos_test
   host: localhost
   encoding: UTF8
   min_messages: WARNING
 
 production:
   adapter: postgresql
-  database: stackoverflow_production
+  database: fantasy_sos_production
   pool: 25
   timeout: 5000

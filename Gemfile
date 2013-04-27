@@ -5,6 +5,8 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'bcrypt-ruby'
 gem 'redcarpet'
+gem 'devise'
+gem 'stripe_event'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
