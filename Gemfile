@@ -6,6 +6,7 @@ gem 'pg'
 gem 'bcrypt-ruby'
 gem 'redcarpet'
 gem 'devise'
+gem 'stripe'
 gem 'stripe_event'
 
 group :assets do
