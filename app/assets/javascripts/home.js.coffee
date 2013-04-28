@@ -26,8 +26,11 @@ subscription =
   
   handleStripeResponse: (status, response) ->
     if status == 200
-      $('#subscription_stripe_card_token').val(response.id)
+      console.log response.id
+      $('#user_stripe_card_token').val(response.id) 
       $('#new_user')[0].submit()
     else
+      console.log response.error.message
+      console.log 'Hello CoffeeScript'
       $('#stripe_error').text(response.error.message)
       $('input[type=submit]').attr('disabled', false)
